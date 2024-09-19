@@ -1,38 +1,22 @@
 # ImageTransformProject
-A colorful journey through C++ image processing. This project will edit the imported PNG image by illinifying, spotlighting, and watermarking it using C++ language.
+
+ImageTransformProject: A Colorful Journey Through C++ Image Processing
+This project explores image manipulation using C++ and the HSLAPixel color space. We'll transform imported PNG images by applying various effects: illinifying, spotlighting, and watermarking..
 
 
-## Part 1: HSLAPixel
-## Understanding Color Spaces
-we will not be working with the physical properties of color that you may be familiar with from
-other sources (the “RGB color space” for red-green-blue channels.) Instead, we will be using an alternative
-color space that represents colors by human perception of color. The HSL color space uses the Hue, Saturation,
-and Luminance of the color. From the Adobe Technical Guides page on “The HSB/HLS Color Model”, Adobe
-explores these terms:
+## Part 1: Understanding HSLAPixel and Color Spaces
 
-## Hue
-Hue (denoted as h) defines the color itself, for
-example, red in distinction to blue or yellow. The
-values for the hue axis run from 0–360° beginning
-and ending with red and running through green,
-blue and all intermediary colors like greenish-blue,
-orange, purple, etc.
+We'll work with the HSL color space, which represents colors based on human perception. Here's a breakdown of its components:
 
-  
+# Hue (h): Defines the actual color itself (red, green, blue, etc.). Values range from 0-360 degrees, forming a circular spectrum.
 ![Hue](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/hue.png)
 
-## Saturation
-Saturation (denoted as s) indicates the degree to which the hue differs from a neutral gray. The values run from
-0%, which is no color saturation, to 100%, which is the fullest saturation of a given hue at a given percentage of
-illumination.
 
+# Saturation (s): Indicates the intensity of the color. 0% is grayscale, 100% is fully saturated.
 ![Saturation](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/saturation.png)
 
 
-
-## Luminance
-Luminance (denoted as l) indicates the level of illumination. The values run as percentages; 0% appears black
-(no light) while 100% is full illumination, which washes out the color (it appears white).
+# Luminance (l): Represents the brightness level. 0% is black, 100% is white.
 
 ![Luminance](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/luminance.png)
 
