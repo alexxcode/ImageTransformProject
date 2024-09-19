@@ -4,19 +4,19 @@ ImageTransformProject: A Colorful Journey Through C++ Image Processing
 This project explores image manipulation using C++ and the HSLAPixel color space. We'll transform imported PNG images by applying various effects: illinifying, spotlighting, and watermarking..
 
 
-## Part 1: Understanding HSLAPixel and Color Spaces
+# Part 1: Understanding HSLAPixel and Color Spaces
 
 We'll work with the HSL color space, which represents colors based on human perception. Here's a breakdown of its components:
 
-# Hue (h): Defines the actual color itself (red, green, blue, etc.). Values range from 0-360 degrees, forming a circular spectrum.
+## Hue (h): Defines the actual color itself (red, green, blue, etc.). Values range from 0-360 degrees, forming a circular spectrum.
 ![Hue](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/hue.png)
 
 
-# Saturation (s): Indicates the intensity of the color. 0% is grayscale, 100% is fully saturated.
+## Saturation (s): Indicates the intensity of the color. 0% is grayscale, 100% is fully saturated.
 ![Saturation](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/saturation.png)
 
 
-# Luminance (l): Represents the brightness level. 0% is black, 100% is white.
+## Luminance (l): Represents the brightness level. 0% is black, 100% is white.
 
 ![Luminance](https://github.com/alexxcode/ImageTransformProject/blob/main/ImageTransformProject/images/luminance.png)
 
